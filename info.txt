@@ -1,0 +1,11 @@
+""""Welcome to the ARP Spoofer Tool""""
+---------------------------------------------------------------------------------------------------------------------------------------------
+This tool works on various different environments such as Windows, Linux and MacOS
+
+The main function of this tool is to spoof ARP tables in the victim client, so the user who is using this tool becomes Man-in-the-Middle, so he spoofs the victim client's address and tells that they are the gateway address and to the router they spoof the address and tell them that they are the victim client. So, in this way, the whole traffic passes through the user who is using this program.
+
+After installing the tool, the user has to just run the program and also accordingly change the required IP addresses in the program to attack the corresponding victim client.
+Then the user can verify by checking their ARP table by typing in "arp -a" command.
+Also, on exiting the program, the ARP tables will be reset to their original paths or routes, so that the user no longer stays in the middle of the connection.
+
+Ex: python arp_spoofer.py
